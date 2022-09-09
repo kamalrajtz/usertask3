@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>DataX</title>
+</head>
+
+<body class="bgcolor bg-img">
+
+    <!--Loader Page Section>-->
+    <div id="pre-loader">
+
+    </div>
+
+    <!--Navar Section-->
+    <nav class="navbar px-3 mb-3 shadow-lg bg-white" id="nav-bar">
+        <!--Sidebar Section-->
+        <div class="sbar" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"><img src="../task3/assests/images/sidebar.svg" alt=""></div>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header shadow-lg">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">DataX</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="off-sec">
+                    <li class="off-one"><a href="#con-tit">About Us</a></li>
+                    <li class="off-one"><a href="#panel">Details</a></li>
+                    <li class="off-one"><a href="#emp-txt">Perfomance</a></li>
+                    <li class="off-one"><a href="#car-tit">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <a class="navbar-brand" href="#">DataX</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#con-tit">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#panel">Details</a>
+            </li>
+
+            <!--Scrollspy Section-->
+            <li class="nav-item dropdown shadow-lg rounded">
+                <a class="nav-link dropdown-toggle shadow-lg rounded" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">More</a>
+                <ul class="dropdown-menu shadow-lg rounded" id="drop-txt">
+                    <li><a class="dropdown-item" href="#emp-txt">Perfomance</a></li>
+                    <li><a class="dropdown-item" href="#car-tit">Careers</a></li>
+            </li>
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#nav-bar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+        tabindex="0"></div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="assests/images/data-animate.svg" height="500" width="550" class="svg-img">
+        </div>
+        <div class="col-md-6" id="slo-txt">
+            <h1>DataX</h1>
+            <p>Innovate, Connect, Inspire.</p>
+        </div>
+    </div>
+
+    <!--Content Section-->
+    <div class="con-tit" id="con-tit">
+        <h2 class="ti-head shadow-lg">About Us.</h2>
+        <p class="ti-body">DataX is a Data Science Tehnology Company. Data scientists are trained to identify data that
+            stands out in
+            some way.
+            We create statistical, network, path, and big data methodologies for predictive fraud propensity models
+            and use those to create alerts that help
+            ensure timely responses when unusual data is recognized.
+            Delivering relevant products.
+        </p>
+    </div>
+
+    <!--Table Section-->
+    <div class="container" id="load-con">
+        <div class="row" id="panel-box">
+            <div class="panel" id="panel">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col col-sm-3 col-xs-12">
+                            <h4 class="title">Employee Details</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone Number</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jack</td>
+                                <td data-bs-toggle="popover" data-bs-placement="right" data-bs-title="Email"
+                                    data-bs-content="Verified Email Address">jack21@gmail.com</td>
+                                <td>+971528321047</td>
+                                <td>Active</td>
+                                <td>
+                                    <ul class="action-list">
+                                        <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="right"
+                                                title="Delete"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mark</td>
+                                <td data-bs-toggle="popover" data-bs-placement="right" data-bs-title="Email"
+                                    data-bs-content="Verified Email Address">markking077@gmail.com</td>
+                                <td>+9715637637608</td>
+                                <td>Active</td>
+                                <td>
+                                    <ul class="action-list">
+                                        <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="right"
+                                                title="Delete"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Zack King</td>
+                                <td data-bs-toggle="popover" data-bs-placement="right" data-bs-title="Email"
+                                    data-bs-content="Verified Email Address">zackking27@gmail.com</td>
+                                <td>+971528321047</td>
+                                <td>Not-Available</td>
+                                <td>
+                                    <ul class="action-list">
+                                        <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="right"
+                                                title="Delete"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Anthony</td>
+                                <td data-bs-toggle="popover" data-bs-placement="right" data-bs-title="Email"
+                                    data-bs-content="Verified Email Address">anthony705@gmail.com</td>
+                                <td>+95156337608</td>
+                                <td>Active</td>
+                                <td>
+                                    <ul class="action-list">
+                                        <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="right"
+                                                title="Delete"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Otis</td>
+                                <td data-bs-toggle="popover" data-bs-placement="right" data-bs-title="Email"
+                                    data-bs-content="Verified Email Address">otis66@gmail.com</td>
+                                <td>+971528321047</td>
+                                <td>Not-Available</td>
+                                <td>
+                                    <ul class="action-list">
+                                        <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="right"
+                                                title="Delete"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!--Pagination Section-->
+        <nav>
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#"><</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">></a></li>
+            </ul>
+        </nav>
+
+        <!--Progress Heading Section-->
+        <div class="emp-txt" id="emp-txt">
+            <h3 class="txt-col shadow-lg p-3 mb-5 bg-body rounded">Employee's Performance</h3>
+        </div>
+        <div class="skill-align">
+            <div class="skill-bars">
+                <div class="bar">
+                    <div class="info">
+                        <span>Jack</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Mark</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Zack King</span>
+                    </div>
+                    <div class="progress-line jquery">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Anthony</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Otis</span>
+                    </div>
+                    <div class="progress-line mysql">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="car-sec">
+        <div class="col-md-6">
+            <h1 class="car-tit shadow-lg" id="car-tit">Careers.</h1>
+        </div>
+        <div class="col-md-6">
+            <p class="car-body">We are looking for a Data Scientist to analyze large amounts of raw information to find
+                patterns that will help improve our company. We will rely on you to build data products to extract
+                valuable
+                business insights.
+                In this role, you should be highly analytical with a knack for analysis, math and statistics. Critical
+                thinking and problem-solving skills are essential for interpreting data. We also want to see a passion
+                for
+                machine-learning and research.
+                Your goal will be to help our company analyze trends to make better decisions.
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var loader = document.getElementById("pre-loader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+            $('#pre-loader').show(0).delay(3000).fadeOut('slow').hide(0);
+        })
+    </script>
+
+
+    <script type="text/javascript">
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+    </script>
+
+</body>
+
+</html>

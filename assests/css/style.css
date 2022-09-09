@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Background Section*/
+.bg-img {
+    background-image: url("../images/bg-img8.jpg");
+    background-size: 100%;
+}
+
+/*Loader Section*/
+#pre-loader {
+    background: #191f26 url("../images/loading_icon2.gif") no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#slo-txt h1 {
+    padding-left: 20%;
+    padding-top: 30%;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#slo-txt p {
+    padding-left: 23%;
+    font-weight: bold;
+}
+
+/*Navigation Section*/
+.navbar-brand {
+    font-weight: bold;
+    font-size: 50px;
+    color: #32de84;
+    padding-right: 50%;
+}
+
+.nav-link {
+    font-weight: lighter;
+    color: #32de84;
+    font-weight: bold;
+}
+
+#drop-txt {
+    font-size: 15px;
+}
+
+#drop-txt a {
+    color: #32de84;
+    font-weight: bold;
+}
+.sbar
+{
+    cursor: pointer;
+    padding-left: 2%;
+}
+.offcanvas-title
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.off-sec
+{
+    list-style: none;
+    padding-top: 5%;
+}
+.off-sec a
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.off-one
+{
+    margin-bottom: 3%;
+}
+.offcanvas-body
+{
+    background-image: url("../images/bg-img8.jpg");
+}
+/*Animated Image Section*/
+.svg-img {
+
+    padding-left: 15%;
+}
+
+/*Content Section*/
+.con-tit {
+    padding-top: 10%;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.ti-head {
+    background-color: white;
+    text-align: center;
+    padding: 11px 0px 11px 0px;
+    width: 20%;
+    border-radius: 60px;
+    font-weight: bold;
+}
+
+.ti-body {
+    text-align: justify;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+/*Table Section*/
+.panel {
+    background: linear-gradient(to right, #29b933, #0d7204);
+    padding: 0;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.05), 0 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#panel-box {
+    padding: 10% 20% 0% 10%;
+}
+
+.panel .panel-heading {
+    padding: 10px 15px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+
+.panel .panel-heading .title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 40px;
+    margin: 0;
+    width: max-content;
+}
+
+.panel .panel-heading .btn {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.panel .panel-heading .btn:hover {
+    color: #fff;
+    text-shadow: 3px 3px rgba(255, 255, 255, 0.2);
+}
+
+.panel .panel-heading .form-control {
+    color: #fff;
+    background-color: transparent;
+    width: 35%;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.panel .panel-heading .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    outline: none;
+}
+
+.panel .panel-heading .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.panel .panel-body {
+    padding: 0;
+}
+
+.panel .panel-body .table thead tr th {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px;
+    border: none;
+}
+
+.panel .panel-body .table tbody tr td {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 12px;
+    vertical-align: middle;
+    border: none;
+}
+
+.panel .panel-body .table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.panel .panel-body .table tbody .action-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.panel .panel-body .table tbody .action-list li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.panel .panel-body .table tbody .action-list li a {
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+/*Pagination Section*/
+.pagination {
+    padding-left: 40%;
+    padding-top: 20px;
+
+}
+
+/*Progress Heading Section*/
+.emp-txt {
+    padding-top: 120px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.txt-col {
+    color: #3ddb87;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/*Progress Section*/
+.skill-align {
+    padding: 10px 260px;
+}
+
+::selection {
+    color: #fff;
+    background: #3ddb87;
+}
+
+.skill-bars {
+    padding: 25px 70px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.skill-bars .bar {
+    margin: 20px 0;
+}
+
+.skill-bars .bar:first-child {
+    margin-top: 0px;
+}
+
+.skill-bars .bar .info {
+    margin-bottom: 5px;
+}
+
+.skill-bars .bar .info span {
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-bars .bar .progress-line {
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+        0 1px rgba(255, 255, 255, 0.8);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.bar .progress-line span {
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: #3ddb87;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line.html span {
+    width: 90%;
+}
+
+.bar .progress-line.css span {
+    width: 60%;
+}
+
+.bar .progress-line.jquery span {
+    width: 85%;
+}
+
+.bar .progress-line.python span {
+    width: 50%;
+}
+
+.bar .progress-line.mysql span {
+    width: 75%;
+}
+
+.progress-line span::before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progress-line span::after {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+    100% {
+        opacity: 1;
+    }
+}
+
+.progress-line.html span::after {
+    content: "90%";
+}
+
+.progress-line.css span::after {
+    content: "60%";
+}
+
+.progress-line.jquery span::after {
+    content: "85%";
+}
+
+.progress-line.python span::after {
+    content: "50%";
+}
+
+.progress-line.mysql span::after {
+    content: "75%";
+}
+
+/*Footer Content*/
+.car-tit {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#car-sec {
+    padding-top: 100px;
+}
+
+#car-sec h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 0px 140px 140px 0px;
+}
+
+#car-sec p {
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
